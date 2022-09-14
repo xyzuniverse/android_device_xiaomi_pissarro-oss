@@ -100,6 +100,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service
 
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common@1.2.vendor \
+    android.hardware.graphics.mapper@4.0.vendor \
+    android.hardware.graphics.allocator@4.0.vendor
+
+PRODUCT_PACKAGES += \
+    libdrm.vendor
+
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
