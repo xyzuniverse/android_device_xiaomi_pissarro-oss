@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     init.recovery.mt6877.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
