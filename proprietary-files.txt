@@ -2538,9 +2538,7 @@ vendor/lib64/hw/vibrator.default.so
 vendor/lib64/vendor.xiaomi.hardware.vibratorfeature@1.0.so
 
 # WiFi
-vendor/bin/iwpriv
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
--vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
+-vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
 # Misc
 vendor/bin/hw/mfp-daemon
