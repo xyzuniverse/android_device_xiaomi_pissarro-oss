@@ -331,6 +331,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.nonblocking_ffs=0 \
     persist.adb.nonblocking_ffs=0
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant@1.0.vendor \
