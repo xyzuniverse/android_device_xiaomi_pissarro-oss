@@ -50,5 +50,9 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 # Platform
 TARGET_BOARD_PLATFORM := mt6877
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
 # Inherit the proprietary files
 include vendor/xiaomi/pissarro/BoardConfigVendor.mk
