@@ -152,5 +152,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# ADB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.adb.nonblocking_ffs=0
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
