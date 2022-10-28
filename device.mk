@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.recovery.hardware.rc \
     init.recovery.mt6877.rc \
-    init.sensor_2_0.rc
+    init.sensor_2_0.rc \
+    init.recovery.mt6877.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
