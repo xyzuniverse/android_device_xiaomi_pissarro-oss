@@ -154,7 +154,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # ADB
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.adb.nonblocking_ffs=0
+    ro.adb.nonblocking_ffs=0 \
+    persist.adb.nonblocking_ffs=0
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
