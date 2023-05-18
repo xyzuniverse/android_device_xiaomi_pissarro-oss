@@ -40,6 +40,22 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6877 \
+    fstab.mt6877.ramdisk \
+    init.aee.rc \
+    init.ago.rc \
+    init.connectivity.rc \
+    init.mi_thermald.rc \
+    init.modem.rc \
+    init.mt6877.rc \
+    init.mt6877.usb.rc \
+    init.project.rc \
+    init.recovery.hardware.rc \
+    init.recovery.mt6877.rc \
+    init.sensor_2_0.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
