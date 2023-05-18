@@ -16,7 +16,6 @@ vendor/lib/libaudiofoundation.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiotoolkit_vendor.so
-vendor/lib/libtinycompress.so
 vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib64/libaudio_param_parser-vnd.so
@@ -31,7 +30,6 @@ vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiotoolkit_vendor.so
-vendor/lib64/libtinycompress.so
 
 # Audio-Hardware
 vendor/lib/hw/audio.primary.default.so
@@ -2068,12 +2066,8 @@ vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.beanpod.so
 vendor/lib/hw/gatekeeper.default.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.default.so
 
@@ -2102,20 +2096,13 @@ vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
-vendor/lib64/libkeymaster4.so
-vendor/lib64/libkeymaster4support.so
 vendor/lib64/libkeymaster_messages.so
 vendor/lib64/libkeymaster_portable.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
 # Listen
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib/hw/sound_trigger.primary.mt6877.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib64/hw/sound_trigger.primary.mt6877.so
 
 # Media
@@ -2158,8 +2145,6 @@ vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/etc/init/vendor.mediatek.hardware.vpu@1.0-service.rc
 vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml
 -vendor/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml
-vendor/etc/media_codecs_mediatek_audio.xml
-vendor/etc/media_codecs_mediatek_video.xml
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so
@@ -3091,7 +3076,6 @@ vendor/etc/ForceDarkAppConfig.json
 vendor/etc/MNL_Config.xml
 vendor/etc/NOTICE_GPL.html.gz
 vendor/etc/RES1K.wav
-vendor/etc/a2dp_in_audio_policy_configuration.xml
 vendor/etc/aee-config
 vendor/etc/armnn_app.config
 vendor/etc/aurisys_config.xml
@@ -3120,9 +3104,6 @@ vendor/etc/mpe.conf
 vendor/etc/mtk_omx_core.cfg
 vendor/etc/nhw
 vendor/etc/partition_permission.sh
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/qt.cfg
 vendor/etc/rcv.wav
 vendor/etc/rcv_pink.wav
@@ -3157,7 +3138,6 @@ vendor/etc/task_profiles.json
 vendor/etc/throttle.sh
 vendor/etc/top_spk.wav
 vendor/etc/ultrasound.wav
-vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
@@ -3244,8 +3224,6 @@ vendor/lib/libhdrvideo.so
 vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libhfmanager.so
 vendor/lib/libhfmanagerwrapper.so
-vendor/lib/libhidltransport.so
-vendor/lib/libhwbinder.so
 vendor/lib/libhwm.so
 vendor/lib/libicd_decoder.so
 vendor/lib/libimgsensorca.so
@@ -3327,7 +3305,6 @@ vendor/lib/libstorage_otp.so
 vendor/lib/libsysenv.so
 vendor/lib/libteeclientjni.so
 vendor/lib/libteeclientjni@1.1.so
-vendor/lib/libtextclassifier_hash.so
 vendor/lib/libtflite_mtk.so
 vendor/lib/libtflite_mtk_static_R.so
 vendor/lib/libthha.so
@@ -3521,8 +3498,6 @@ vendor/lib64/libhdrvideo.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhfmanager.so
 vendor/lib64/libhfmanagerwrapper.so
-vendor/lib64/libhidltransport.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libhwm.so
 vendor/lib64/libicd_decoder.so
 vendor/lib64/libifcutils_mtk.so
@@ -3595,7 +3570,6 @@ vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/libsysenv.so
 vendor/lib64/libteeclientjni.so
 vendor/lib64/libteeclientjni@1.1.so
-vendor/lib64/libtextclassifier_hash.so
 vendor/lib64/libtflite_mtk.so
 vendor/lib64/libtflite_mtk_static_R.so
 vendor/lib64/libthha.so
@@ -3686,10 +3660,3 @@ vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta
 vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
 vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta
 vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta
-vendor/build_pissarro.prop
-vendor/build_pissarroin.prop
-vendor/build_pissarroinpro.prop
-vendor/build_pissarropro.prop
-vendor/build_pissarropro_ds.prop
-vendor/build_pissarropro_ss.prop
-vendor/odm
