@@ -331,6 +331,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.adb.nonblocking_ffs=0 \
     persist.adb.nonblocking_ffs=0
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.1-service.typec
+
 # VNDK
 PRODUCT_PACKAGES += \
     libutils-v32
