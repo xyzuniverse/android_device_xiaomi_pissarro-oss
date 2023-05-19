@@ -298,7 +298,6 @@ PRODUCT_PACKAGES += \
     init.mt6877.rc \
     init.mt6877.usb.rc \
     init.project.rc \
-    init.recovery.hardware.rc \
     init.recovery.mt6877.rc \
     init.sensor_2_0.rc \
     init.recovery.mt6877.rc
@@ -307,7 +306,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
     android.hardware.sensors@2.0.vendor \
-    android.frameworks.sensorservice@1.0
+    android.frameworks.sensorservice@1.0 \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor
 
 PRODUCT_PACKAGES += \
     libsensorndkbridge
